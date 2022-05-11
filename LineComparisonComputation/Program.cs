@@ -10,6 +10,7 @@ namespace LineComparisonComputation
             do
             {
                 Console.WriteLine("\n1. Calculate single line length");
+                Console.WriteLine("2. Calculate if two lines are equal or not");
 
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice : ");
@@ -19,6 +20,10 @@ namespace LineComparisonComputation
                     case 1:
                         SingleLineLength singleLineLength = new SingleLineLength();
                         singleLineLength.LineLength();
+                        break;
+                    case 2:
+                        EqualityOfTwoLines equalityOfTwoLines = new EqualityOfTwoLines();
+                        equalityOfTwoLines.Equality();
                         break;
                 }
 
