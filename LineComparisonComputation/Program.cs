@@ -35,7 +35,6 @@ namespace LineComparisonComputation
                         cm.AllComparison();
                         break;
                 }
-
             } while (choice != 0);
         }
     }
